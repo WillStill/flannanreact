@@ -5,7 +5,7 @@ import image4 from './images/ahittweet.png'
 import image5 from './images/harlowcat.svg'
 import './App.css';
 
-function Main() {
+function App() {
 
     const imagePaths = [
         image1,
@@ -50,4 +50,4 @@ function Main() {
     );
 }
 
-export default Main;
+export default App;
