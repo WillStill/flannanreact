@@ -6,7 +6,6 @@ import image5 from './images/harlowcat.svg'
 import './App.css';
 
 function App() {
-
     const imagePaths = [
         image1,
         image2,
