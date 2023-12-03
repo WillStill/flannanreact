@@ -39,7 +39,7 @@ function App() {
                 <img
                     key={index}
                     src= {image}
-                    alt="Funny Picture"
+                    alt="Funny Thing"
                     className="photo"
                     width="300px"
                 />
