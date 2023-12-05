@@ -1,20 +1,15 @@
 {
   "files": {
     "main.css": "/reactpages/static/css/main.f855e6bc.css",
-    "main.js": "/reactpages/static/js/main.16655f9f.js",
+    "main.js": "/reactpages/static/js/main.69aabba9.js",
     "static/js/787.8985ebd5.chunk.js": "/reactpages/static/js/787.8985ebd5.chunk.js",
-    "static/media/ahittweet.png": "/reactpages/static/media/ahittweet.2dde1f0ad1fd8762b252.png",
-    "static/media/catstare.gif": "/reactpages/static/media/catstare.eaafa32e3952375c840b.gif",
-    "static/media/harlowcat.svg": "/reactpages/static/media/harlowcat.a0ddeb80769418596d74f7825ab0e0ca.svg",
-    "static/media/ena.gif": "/reactpages/static/media/ena.dabc5eccc9de1699417e.gif",
-    "static/media/beans.PNG": "/reactpages/static/media/beans.d3265d5c62dfcc1a7e16.PNG",
     "index.html": "/reactpages/index.html",
     "main.f855e6bc.css.map": "/reactpages/static/css/main.f855e6bc.css.map",
-    "main.16655f9f.js.map": "/reactpages/static/js/main.16655f9f.js.map",
+    "main.69aabba9.js.map": "/reactpages/static/js/main.69aabba9.js.map",
     "787.8985ebd5.chunk.js.map": "/reactpages/static/js/787.8985ebd5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.16655f9f.js"
+    "static/js/main.69aabba9.js"
   ]
 }
