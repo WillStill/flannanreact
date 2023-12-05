@@ -1,23 +1,52 @@
-import image1 from './images/catstare.gif';
-import image2 from './images/beans.PNG'
-import image3 from './images/ena.gif'
-import image4 from './images/ahittweet.png'
-import image5 from './images/harlowcat.svg'
+import { isles } from './data.js';
 import './App.css';
 
 function App() {
-    const imagePaths = [
-        image1,
-        image2,
-        image3,
-        image4,
-        image5
-    ];
+
+    // // Access a Nested Dict Value
+    // const westIslesArray = isles.find(isle => isle.hasOwnProperty('Western Isles'))['Western Isles'];
+    // const secondDictionaryItem = westIslesArray[1];
+    // const secondDictionaryName = secondDictionaryItem.name;
+    // // OR const secondDictionaryName = isles.find(isle => isle.hasOwnProperty('westisles'))['westisles'][1].name;
+    //
+    // console.log(secondDictionaryName); // Output: Roaireim
+    // console.log(secondDictionaryItem); // Output: Roaireim
+
+    // Iterate for every island
+    const IslandInfo = ({ isles }) => ( //
+        <>
+            {/*For Each Islegroup in Isles Array */}
+            {isles.map((islegroup) => (
+                <>
+                    {/*Print the IsleGroup Name*/}
+                    <h2>{Object.keys(islegroup)}</h2>
+                    {/*For Each Isle In IsleGroup with Key*/}
+                    {islegroup[Object.keys(islegroup)].map((island) => (
+                        // Print Island Information
+                        <>
+                            <h3>{island.name}</h3>
+                            <p>{island.desc}</p>
+                        </>
+                    ))}
+                </>
+            ))}
+        </>
+    );
+
+
+
 
     return (
         <>
+            <div>
+                <IslandInfo isles={isles} />
+            </div>
+
+
+
+
             <h1>Howdy!</h1>
-            <p>I'm just beginning to delve into what is possible with JSX. </p>
+            <p>I'm just beginning to delve into what is possible with React. </p>
             <h2>What I've tried so far:</h2>
             <ul>
                 <li>Getting a list of filepaths in `./images/` with JSX (It can't look at filesystems/servers)</li>
@@ -35,15 +64,21 @@ function App() {
                 <li>Create CSS</li>
 
             </ul>
-            {imagePaths.map((image, index) => (
-                <img
-                    key={index}
-                    src= {image}
-                    alt="Funny Thing"
-                    className="photo"
-                    width="300px"
-                />
-            ))}
+
+            {/*<ul>{listItems}</ul>*/}
+
+
+
+            {/*Beginning Gallery*/}
+            {/*{imagePaths.map((image, index) => (*/}
+            {/*    <img*/}
+            {/*        key={index}*/}
+            {/*        src= {image}*/}
+            {/*        alt="Funny Thing"*/}
+            {/*        className="photo"*/}
+            {/*        width="300px"*/}
+            {/*    />*/}
+            {/*))}*/}
 
         </>
     );
