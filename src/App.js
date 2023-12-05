@@ -49,11 +49,11 @@ function App() {
             <p>I'm just beginning to delve into what is possible with React. </p>
             <h2>What I've tried so far:</h2>
             <ul>
-                <li>Getting a list of filepaths in `./images/` with JSX (It can't look at filesystems/servers)</li>
+                <li>Getting a list of filepaths in `./images/` with JSX (JSX can't look at filesystems/servers, I meant to do this with React)</li>
                 <li>Created a Javascript file to get a list of filepaths in `./images/` (Deleted)</li>
-                <li>Have JSX execute Javascript file (It can't?)</li>
-                <li>(I don't want to list the name for every image file)</li>
-                <li>use emojis? &#x1F604; (it works like html)</li>
+                <li><s>Have JSX execute Javascript file (It can't?)</s> Other js files can be executed if those files have a function, the function has `export` in the definition, and referencing those files are done properly (I need curly braces but I'm not sure if it's only with curly braces)</li>
+                <li>(I don't want to list the name for every image file) I DID IT! A data file with information (can include image info) is iterated through to post info in html</li>
+                <li>use emojis? &#x1F604; (this should work exactly like coding in html)</li>
                 <li>Created an array of image paths after manually importing them</li>
             </ul>
             <p>I know there's a way to use Node.js and import the filepath list but its going to take more time than I have.</p>
