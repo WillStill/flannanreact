@@ -1,7 +1,12 @@
 import { isles } from './data.js';
+import Map from './images/FlannanMap.jpg';
 import './App.css';
 
+
+
 function App() {
+
+
 
     // // Access a Nested Dict Value
     // const westIslesArray = isles.find(isle => isle.hasOwnProperty('Western Isles'))['Western Isles'];
@@ -26,6 +31,13 @@ function App() {
                         <>
                             <h3>{island.name}</h3>
                             <p>{island.desc}</p>
+                            <img
+
+                                src= {island.imageURL}
+                                alt="Island Visualization"
+                                className="photo"
+                                width="300px"
+                            />
                         </>
                     ))}
                 </>
@@ -34,10 +46,17 @@ function App() {
     );
 
 
-
-
     return (
         <>
+            <div>
+                <img
+                    src= {Map}
+                    alt="Map of Flannan Isles or the Seven Hunters"
+                    className="photo"
+                    width="100%"
+                />
+            </div>
+
             <div>
                 <IslandInfo isles={isles} />
             </div>

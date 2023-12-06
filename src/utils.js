@@ -1,8 +1,9 @@
-export function getImageUrl(person, size = 's') {
+import { isles } from './data.js';
+
+export function getImageUrl(isles) {
     return (
-        'https://i.imgur.com/' +
-        person.imageId +
-        size +
-        '.jpg'
+        '.images/' +
+        isles.imageId +
+        's.jpg'
     );
 }
