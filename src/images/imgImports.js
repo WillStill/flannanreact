@@ -1,5 +1,5 @@
 import _BronaCleit from './BronaCleit.jpg'
-import _Cove from './Cove.jpg'
+import _Cove from './EileanMorCove.jpg'
 import _EileanGhobha from './EileanGhobha.jpg'
 import _EileanGhobhaandRoareim from './EileanGhobhaandRoareim.jpg'
 import _EileanMor from './EileanMor.jpg'

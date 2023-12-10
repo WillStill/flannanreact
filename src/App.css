@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+html {
+    scroll-behavior: smooth;
+    background-color: #FDFDFA;
+    min-width: 360px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    display: block;
+    color: #1D1A11;
+    font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.introImg {
+    width: 95%;
+    margin: 0 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+main {
+    margin: 0 auto 0 auto;
+    min-width: 320px;
+    max-width: 960px;
 }
 
-.App-link {
-  color: #61dafb;
+.isleGroup {
+    font-size: 2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.isleImg {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.isleName {
+    font-size: 1.5em;
+}
+
+.gallImg {
 }
