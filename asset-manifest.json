@@ -1,22 +1,31 @@
 {
   "files": {
-    "main.css": "/reactpages/static/css/main.f855e6bc.css",
-    "main.js": "/reactpages/static/js/main.9d845ef5.js",
+    "main.css": "/reactpages/static/css/main.ba7c322c.css",
+    "main.js": "/reactpages/static/js/main.f0b916f8.js",
     "static/js/787.8985ebd5.chunk.js": "/reactpages/static/js/787.8985ebd5.chunk.js",
     "static/media/FlannanMap.jpg": "/reactpages/static/media/FlannanMap.e6ee245b31179b6d5f63.jpg",
-    "static/media/Roaireim.jpg": "/reactpages/static/media/Roaireim.564f4a4aefccbdefcd17.jpg",
     "static/media/EileanTaighe.jpg": "/reactpages/static/media/EileanTaighe.1f11c48641c775b83023.jpg",
     "static/media/Eilean_a_Ghobha_and_Roareim.jpg": "/reactpages/static/media/Eilean_a_Ghobha_and_Roareim.ac62047dc2e2ec76eb01.jpg",
+    "static/media/EileanGhobhaandRoareim.jpg": "/reactpages/static/media/EileanGhobhaandRoareim.3cf50f020ec2cf00d16b.jpg",
     "static/media/Path.jpg": "/reactpages/static/media/Path.4d3c778e5069bedb09fd.jpg",
-    "static/media/Cove.jpg": "/reactpages/static/media/Cove.7b67e6b92918426b1553.jpg",
+    "static/media/EileanMorTip.jpg": "/reactpages/static/media/EileanMorTip.0b6a1491fc69b1b3d887.jpg",
+    "static/media/EileanMorCove.jpg": "/reactpages/static/media/EileanMorCove.7b67e6b92918426b1553.jpg",
+    "static/media/Soraidh.jpg": "/reactpages/static/media/Soraidh.5d58b94fb05121665e49.jpg",
+    "static/media/Roaireim.jpg": "/reactpages/static/media/Roaireim.cb453d663d606bdc0101.jpg",
+    "static/media/RoundingBronaCleit.jpg": "/reactpages/static/media/RoundingBronaCleit.7315484043fe59b99ca7.jpg",
+    "static/media/SgeirTomain.jpg": "/reactpages/static/media/SgeirTomain.71c4200afd549cd45429.jpg",
+    "static/media/EileanGhobha.jpg": "/reactpages/static/media/EileanGhobha.04655e1a1add196d36d9.jpg",
+    "static/media/OldShieling.jpg": "/reactpages/static/media/OldShieling.7f6f9d0d34793f9e7464.jpg",
+    "static/media/SoraidhWater.jpg": "/reactpages/static/media/SoraidhWater.7568aa331b432419401c.jpg",
+    "static/media/BronaCleit.jpg": "/reactpages/static/media/BronaCleit.0cc5a4b3272c713553c1.jpg",
     "static/media/EileanMor.jpg": "/reactpages/static/media/EileanMor.bf8214fcafa96b4e6954.jpg",
     "index.html": "/reactpages/index.html",
-    "main.f855e6bc.css.map": "/reactpages/static/css/main.f855e6bc.css.map",
-    "main.9d845ef5.js.map": "/reactpages/static/js/main.9d845ef5.js.map",
+    "main.ba7c322c.css.map": "/reactpages/static/css/main.ba7c322c.css.map",
+    "main.f0b916f8.js.map": "/reactpages/static/js/main.f0b916f8.js.map",
     "787.8985ebd5.chunk.js.map": "/reactpages/static/js/787.8985ebd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.9d845ef5.js"
+    "static/css/main.ba7c322c.css",
+    "static/js/main.f0b916f8.js"
   ]
 }
