@@ -1,30 +1,22 @@
-import _Cove from './images/Cove.jpg'
-import _EileanMor from './images/EileanMor.jpg'
-import _EileanTaighe from './images/EileanTaighe.jpg'
-import _Eilean_a_Ghobha_and_Roareim from './images/Eilean_a_Ghobha_and_Roareim.jpg'
-import _FlannanMap from './images/FlannanMap.jpg'
-import _Path from './images/Path.jpg'
-import _Roaireim from './images/Roaireim.jpg'
+// Islands
+import _BronaCleit from './BronaCleit.jpg'
+import _EileanGhobha from './EileanGhobha.jpg'
+import _EileanMor from './EileanMor.jpg'
+import _EileanTaighe from './EileanTaighe.jpg'
+import _Roaireim from './Roaireim.jpg'
+import _SgeirTomain from './SgeirTomain.jpg'
+import _Soraidh from './Soraidh.jpg'
 
-
-const data = [
-    {img: _Cove,
-        name: "Cove", folder: "."},
-    {img: _EileanMor,
-        name: "EileanMor", folder: "."},
-    {img: _EileanTaighe,
-        name: "EileanTaighe", folder: "."},
-    {img: _Eilean_a_Ghobha_and_Roareim,
-        name: "Eilean_a'_Ghobha_and_Roareim", folder: "."},
-    {img: _FlannanMap,
-        name: "FlannanMap", folder: "."},
-    {img: _Path,
-        name: "Path", folder: "."},
-    {img: _Roaireim,
-        name: "Roaireim", folder: "."},
-
-]
-export default data;
+// Gallery
+import _Cove from './Cove.jpg'
+import _EileanGhobhaandRoareim from './EileanGhobhaandRoareim.jpg'
+import _EileanMorTip from './EileanMorTip.jpg'
+import _Eilean_a_Ghobha_and_Roareim from './Eilean_a_Ghobha_and_Roareim.jpg'
+import _FlannanMap from './FlannanMap.jpg'
+import _OldShieling from './OldShieling.jpg'
+import _Path from './Path.jpg'
+import _RoundingBronaCleit from './RoundingBronaCleit.jpg'
+import _SoraidhWater from './SoraidhWater.jpg'
 
 // const isles = [
 //     'Map of Flannan Isles or Seven Hunters: A lighthouse built in 1899 stands on the peak of Eilean Mor, the largest island of the island group. FlannanMap.jpg',
@@ -63,17 +55,17 @@ export const isles = [
         [
             {
                 id: 2,
-                name: 'Soray (“Eastward Isle”)',
-                desc: 'The Soray isle is the most eastward reaching of the Southern group. North of Sgeir Tomain, this grass-topped isle is residence to the flocks of birds that call it home. Common puffins claim the rocky cliff sides whereas petrels and gulls nest in the tall grasses. At times, onlookers can spot a goldeneye duck that calls the island home.',
+                name: 'Soraidh (“Eastward Isle”)',
+                desc: 'The Soraidh isle is the most eastward reaching of the Southern group. North of Sgeir Tomain, this grass-topped isle is residence to the flocks of birds that call it home. Common puffins claim the rocky cliff sides whereas petrels and gulls nest in the tall grasses. At times, onlookers can spot a goldeneye duck that calls the island home.',
                 size: '',
-                // imageURL: _Soray
+                imageURL: _Soraidh
             },
             {
                 id: 3,
                 name: 'Sgeir Tomain',
                 desc: 'Much like its northern sibling, Sgeir Tomain is home to an assortment of birds. A weathered circular stone foundation lingers on a flat patch of land. Storm Petrels use the surrounding stone debris as shelters, burrowing between the rocks.',
                 size: '',
-                // imageURL: _SgeirTomain
+                imageURL: _SgeirTomain
             }
         ]
     },
@@ -84,7 +76,7 @@ export const isles = [
                 name: 'Eilean a\' Gobha (“Isle of the Blacksmith”)',
                 desc: 'Fitting for the name given to it, Eilean a\' Gobha holds the more recently constructed bothy, occupied by a smith during the construction of the lighthouse. The bothy now remains unoccupied, with most possessions having been left behind to collect dust. The island lies southeast of Roaireim, and is aptly described as being a grass-topped plateau.',
                 size: '',
-                // imageURL: _EileanaGobha
+                imageURL: _EileanGhobha
             },
             {
                 id: 5,
@@ -98,7 +90,7 @@ export const isles = [
                 name: 'Bròna Cleit (“Sad Sunk Rock”)',
                 desc: 'An island of rock, Bròna Cleit juts into the sky as a place for Seabirds. Gulls and Petrels make use of the nearby waters for fish.',
                 size: '',
-                // imageURL: _BronaCleit
+                imageURL: _BronaCleit
             }
         ]
     }

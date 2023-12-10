@@ -29,8 +29,6 @@ function App() {
                     {islegroup[Object.keys(islegroup)].map((island) => (
                         // Print Island Information
                         <>
-                            <h3>{island.name}</h3>
-                            <p>{island.desc}</p>
                             <img
 
                                 src= {island.imageURL}
@@ -38,6 +36,9 @@ function App() {
                                 className="photo"
                                 width="300px"
                             />
+
+                            <h3>{island.name}</h3>
+                            <p>{island.desc}</p>
                         </>
                     ))}
                 </>
