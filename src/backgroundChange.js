@@ -3,11 +3,60 @@ import Map from './images/FlannanMap.jpg';
 import './App.css';
 import React, {useEffect, useState} from "react";
 
-import _Path from './images/Path.jpg'
-
 function App() {
+    const [visibleDiv, setVisibleDiv] = useState('');
+    const [backgroundStyle, setBackgroundStyle] = useState({
+        backgroundSize: 'cover',
+    });
 
-    // // Access a Nested Dict Value
+    useEffect(() => {
+        const handleScroll = () => {
+            const divIds = isles
+                .map((islegroup) => islegroup[Object.keys(islegroup)].map((island) => island.name))
+                .flat();
+
+            for (const id of divIds) {
+                const div = document.getElementById(id);
+                if (div) {
+                    const rect = div.getBoundingClientRect();
+                    if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+                        setVisibleDiv(id);
+                        break;
+                    }
+                }
+            }
+        };
+
+        // Attach the event listener
+        window.addEventListener('scroll', handleScroll);
+
+        // Remove the event listener on component unmount
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+    // Get the background image URL for the currently visible div
+    const getBgImgURL = () => {
+        const currentIsland = isles
+            .map((islegroup) => islegroup[Object.keys(islegroup)])
+            .flat()
+            .find((island) => island.name === visibleDiv);
+
+        const bgImageURL = currentIsland ? currentIsland.bgImageURL : '';
+        console.log('Background Image URL:', bgImageURL); // Log the background image URL
+
+        // Update the background style with 'cover'
+        setBackgroundStyle({
+            ...backgroundStyle,
+            background: `url(${bgImageURL})`,
+        });
+
+        return bgImageURL;
+    };
+
+
+    // Access a Nested Dict Value
     // const westIslesArray = isles.find(isle => isle.hasOwnProperty('Western Isles'))['Western Isles'];
     // const secondDictionaryItem = westIslesArray[1];
     // const secondDictionaryName = secondDictionaryItem.name;
@@ -15,10 +64,9 @@ function App() {
     //
     // console.log(secondDictionaryName); // Output: Roaireim
     // console.log(secondDictionaryItem); // Output: Roaireim
-
-
     // ACCESS ISLAND INFORMATION
     // // Iterate for every island
+
     const IslandInfo = ({ isles }) => ( //
         <>
             {/*For Each Islegroup in Isles Array */}
@@ -48,22 +96,12 @@ function App() {
     return (
         <>
 
-            {/*<div className="backgroundImg"*/}
-            {/*     id="Replace with island.name here"*/}
-            {/*     style={{*/}
-            {/*         background: 'url(' + Replace with island.bgImageURL here + ')',*/}
-            {/*         backgroundSize: 'cover'*/}
-            {/*     }}*/}
-            {/*/>*/}
-
             <div
                 className="backgroundImg"
-                // id= {islandName}
-                style={{
-                    background: 'url(' + _Path + ')',
-                    backgroundSize: 'cover',
-                }}
-            />
+                id=""
+                style={backgroundStyle}
+            ></div>
+
 
             <div class="introCont">
                 <img
@@ -72,6 +110,8 @@ function App() {
                     className="introImg"
                 />
             </div>
+
+
 
             <main>
                 <IslandInfo isles={isles} />

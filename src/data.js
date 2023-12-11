@@ -73,7 +73,7 @@ export const isles = [
                 desc: 'Much like its northern sibling, Sgeir Tomain is home to an assortment of birds. A weathered circular stone foundation lingers on a flat patch of land. Storm Petrels use the surrounding stone debris as shelters, burrowing between the rocks.',
                 size: '',
                 imageURL: _SgeirTomain,
-                bgImageURL: _EileanMorTip
+                bgImageURL: _EileanMorCove
             }
         ]
     },
