@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/reactpages/static/css/main.ba7c322c.css",
-    "main.js": "/reactpages/static/js/main.f0b916f8.js",
+    "main.css": "/reactpages/static/css/main.49394d8c.css",
+    "main.js": "/reactpages/static/js/main.d705eb1a.js",
     "static/js/787.8985ebd5.chunk.js": "/reactpages/static/js/787.8985ebd5.chunk.js",
     "static/media/FlannanMap.jpg": "/reactpages/static/media/FlannanMap.e6ee245b31179b6d5f63.jpg",
     "static/media/EileanTaighe.jpg": "/reactpages/static/media/EileanTaighe.1f11c48641c775b83023.jpg",
@@ -20,12 +20,12 @@
     "static/media/BronaCleit.jpg": "/reactpages/static/media/BronaCleit.0cc5a4b3272c713553c1.jpg",
     "static/media/EileanMor.jpg": "/reactpages/static/media/EileanMor.bf8214fcafa96b4e6954.jpg",
     "index.html": "/reactpages/index.html",
-    "main.ba7c322c.css.map": "/reactpages/static/css/main.ba7c322c.css.map",
-    "main.f0b916f8.js.map": "/reactpages/static/js/main.f0b916f8.js.map",
+    "main.49394d8c.css.map": "/reactpages/static/css/main.49394d8c.css.map",
+    "main.d705eb1a.js.map": "/reactpages/static/js/main.d705eb1a.js.map",
     "787.8985ebd5.chunk.js.map": "/reactpages/static/js/787.8985ebd5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba7c322c.css",
-    "static/js/main.f0b916f8.js"
+    "static/css/main.49394d8c.css",
+    "static/js/main.d705eb1a.js"
   ]
 }
