@@ -10,9 +10,14 @@ body {
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
+.introCont {
+    background-color: #FDFDFA;
+}
+
 .introImg {
     width: 95%;
-    margin: 0 10px;
+    display: flex;
+    margin: 0 auto;
 }
 
 main {
@@ -31,10 +36,19 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid #1D1A11;
 }
 
 .isleName {
     font-size: 1.5em;
+}
+
+.backgroundImg {
+    height: 100%;
+    width: 100%;
+    opacity: 0.20;
+    position: fixed;
+    z-index: -1;
 }
 
 .gallImg {

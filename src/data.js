@@ -41,7 +41,8 @@ export const isles = [
                 enName: '(“Big Isle”)',
                 desc: 'Eilean Mòr remains the last inhabited island in the St Flannan archipelago, with a population of one lighthouse keeper. The lighthouse is the only modern infrastructure found on the archipelago. The building pokes its head above the peak of the island, surrounded by sheer walls and steep heaths. The lighthouse itself towers above a stone chapel found down the hill, sometimes confused for an open mausoleum. The eastern side of Eilean Mòr has a small cove.',
                 size: '43 acres',
-                imageURL: _EileanMor
+                imageURL: _EileanMor,
+                bgImageURL: _EileanMorTip
             },
             {
                 id: 1,
@@ -49,7 +50,8 @@ export const isles = [
                 enName: '(“House Isle”)',
                 desc: 'Eilean Taighe is located south of Eilean Mòr, separated only by rocky outcroppings and sea. As the name implies, the island holds a majority of the bothies found across the archipelago. Again, the stone bothies are often confused for open graves of residents in the 7th century. The grassy ledges make homes for the Fulmars spread across the Northern Isles.',
                 size: '',
-                imageURL: _EileanTaighe
+                imageURL: _EileanTaighe,
+                bgImageURL: _Path
             }
         ]
     },
@@ -61,7 +63,8 @@ export const isles = [
                 enName: '',
                 desc: 'The Soraidh isle is the most eastward reaching of the Southern group. North of Sgeir Tomain, this grass-topped isle is residence to the flocks of birds that call it home. Common puffins claim the rocky cliff sides whereas petrels and gulls nest in the tall grasses. At times, onlookers can spot a goldeneye duck that calls the island home.',
                 size: '',
-                imageURL: _Soraidh
+                imageURL: _Soraidh,
+                bgImageURL: _SoraidhWater
             },
             {
                 id: 3,
@@ -69,7 +72,8 @@ export const isles = [
                 enName: '',
                 desc: 'Much like its northern sibling, Sgeir Tomain is home to an assortment of birds. A weathered circular stone foundation lingers on a flat patch of land. Storm Petrels use the surrounding stone debris as shelters, burrowing between the rocks.',
                 size: '',
-                imageURL: _SgeirTomain
+                imageURL: _SgeirTomain,
+                bgImageURL: _EileanMorTip
             }
         ]
     },
@@ -81,7 +85,8 @@ export const isles = [
                 enName: '(“Isle of the Blacksmith”)',
                 desc: 'Fitting for the name given to it, Eilean a\' Gobha holds the more recently constructed bothy, occupied by a smith during the construction of the lighthouse. The bothy now remains unoccupied, with most possessions having been left behind to collect dust. The island lies southeast of Roaireim, and is aptly described as being a grass-topped plateau.',
                 size: '',
-                imageURL: _EileanGhobha
+                imageURL: _EileanGhobha,
+                bgImageURL: _OldShieling
             },
             {
                 id: 5,
@@ -89,7 +94,8 @@ export const isles = [
                 enName: '',
                 desc: 'The island of Roaireim contains the remnants of a broch, or a stone roundhouse. The half-fallen monument was more recently converted into a workshop for a smith during the construction of the Lighthouse. The island includes a natural stone arch, where a colony of gannets take hold.',
                 size: '',
-                imageURL: _Roaireim
+                imageURL: _Roaireim,
+                bgImageURL: _EileanGhobhaandRoareim
             },
             {
                 id: 6,
@@ -97,7 +103,8 @@ export const isles = [
                 enName: '(“Sad Sunk Rock”)',
                 desc: 'An island of rock, Bròna Cleit juts into the sky as a place for Seabirds. Gulls and Petrels make use of the nearby waters for fish.',
                 size: '',
-                imageURL: _BronaCleit
+                imageURL: _BronaCleit,
+                bgImageURL: _RoundingBronaCleit
             }
         ]
     }
