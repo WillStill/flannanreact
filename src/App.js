@@ -7,7 +7,14 @@ import _Path from './images/Path.jpg'
 
 function App() {
 
-    // // Access a Nested Dict Value
+
+    useEffect(() => {
+        document.title = "Flannan Isles Page"
+        
+    }, [])
+
+
+        // // Access a Nested Dict Value
     // const westIslesArray = isles.find(isle => isle.hasOwnProperty('Western Isles'))['Western Isles'];
     // const secondDictionaryItem = westIslesArray[1];
     // const secondDictionaryName = secondDictionaryItem.name;
@@ -47,6 +54,7 @@ function App() {
 
     return (
         <>
+
 
             {/*<div className="backgroundImg"*/}
             {/*     id="Replace with island.name here"*/}
