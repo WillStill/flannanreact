@@ -10,7 +10,7 @@ function App() {
 
     useEffect(() => {
         document.title = "Flannan Isles Page"
-        
+
     }, [])
 
 
@@ -63,7 +63,9 @@ function App() {
             {/*         backgroundSize: 'cover'*/}
             {/*     }}*/}
             {/*/>*/}
-
+            <div>
+                <p>This site is <b>FICTION</b> and part of a world-building exercise. Please don't take anything on this page as truth.</p>
+            </div>
             <div
                 className="backgroundImg"
                 // id= {islandName}
