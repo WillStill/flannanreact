@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/flannanreact/static/css/main.49394d8c.css",
-    "main.js": "/flannanreact/static/js/main.982bf986.js",
+    "main.js": "/flannanreact/static/js/main.151c1690.js",
     "static/js/787.17cf3194.chunk.js": "/flannanreact/static/js/787.17cf3194.chunk.js",
     "static/media/FlannanMap.jpg": "/flannanreact/static/media/FlannanMap.e6ee245b31179b6d5f63.jpg",
     "static/media/EileanTaighe.jpg": "/flannanreact/static/media/EileanTaighe.1f11c48641c775b83023.jpg",
@@ -21,11 +21,11 @@
     "static/media/EileanMor.jpg": "/flannanreact/static/media/EileanMor.bf8214fcafa96b4e6954.jpg",
     "index.html": "/flannanreact/index.html",
     "main.49394d8c.css.map": "/flannanreact/static/css/main.49394d8c.css.map",
-    "main.982bf986.js.map": "/flannanreact/static/js/main.982bf986.js.map",
+    "main.151c1690.js.map": "/flannanreact/static/js/main.151c1690.js.map",
     "787.17cf3194.chunk.js.map": "/flannanreact/static/js/787.17cf3194.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.49394d8c.css",
-    "static/js/main.982bf986.js"
+    "static/js/main.151c1690.js"
   ]
 }
