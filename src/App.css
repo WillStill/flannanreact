@@ -10,14 +10,56 @@ body {
     font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
-.introCont {
-    background-color: #FDFDFA;
+.backgroundImg {
+    height: 100%;
+    width: 100%;
+    opacity: 0.20;
+    position: fixed;
+    z-index: -1;
 }
 
-.introImg {
-    width: 95%;
+.WarnCont {
+    padding: 2vh 0 0 0;
+    .warning {
+        width: 75vw;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 5px;
+        margin: 0 auto;
+        border: 3px solid #F44E3F;
+        background-color: #FDFDFA;
+
+        p{
+            margin: 13.5px 14px;
+            text-align: center;
+        }
+
+        .dismiss {
+            cursor: pointer;
+        }
+    }
+}
+
+
+.introCont {
+    background-color: transparent;
     display: flex;
-    margin: 0 auto;
+    justify-content: center;
+    margin: 0;
+
+    .introImg {
+        width: 95%;
+        display: flex;
+        border: #456990 4px solid;
+        border-radius: 3px;
+    }
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh auto;
 }
 
 main {
@@ -30,26 +72,34 @@ main {
     font-size: 2em;
 }
 
-.isleImg {
-    width: 75%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #1D1A11;
-}
-
 .isleName {
     font-size: 1.5em;
+    margin: .5em 0 0.35em;
 }
 
-.backgroundImg {
-    height: 100%;
-    width: 100%;
-    opacity: 0.20;
-    position: fixed;
-    z-index: -1;
+.detailsGroup {
+    margin: 0.5em 0;
+    font-style: italic;
+    color: #555555;
+
+    .details {
+        margin: 0 1em;
+    }
 }
 
-.gallImg {
+.imageGroup {
+
+    .isleImg {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #456990;
+    }
+
+    .caption {
+
+    }
 }
+
