@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/flannanreact/static/css/main.5b6ae0e8.css",
-    "main.js": "/flannanreact/static/js/main.8c1c59ff.js",
+    "main.css": "/flannanreact/static/css/main.4bc5a7af.css",
+    "main.js": "/flannanreact/static/js/main.1d4e3e7d.js",
     "static/js/787.17cf3194.chunk.js": "/flannanreact/static/js/787.17cf3194.chunk.js",
     "static/media/FlannanMap.jpg": "/flannanreact/static/media/FlannanMap.e6ee245b31179b6d5f63.jpg",
     "static/media/BigIlseLookingOutHouseIsleLeftSorayRight.jpg": "/flannanreact/static/media/BigIlseLookingOutHouseIsleLeftSorayRight.eba88b4375e7b998d3fa.jpg",
@@ -22,15 +22,16 @@
     "static/media/OldShieling.jpg": "/flannanreact/static/media/OldShieling.7f6f9d0d34793f9e7464.jpg",
     "static/media/RoaireimArches.jpg": "/flannanreact/static/media/RoaireimArches.0c0676c30b376a769583.jpg",
     "static/media/SoraidhWater.jpg": "/flannanreact/static/media/SoraidhWater.7568aa331b432419401c.jpg",
+    "static/media/FlannanMapSymbolsNoNS.svg": "/flannanreact/static/media/FlannanMapSymbolsNoNS.8de47c20e7fc5f1e6c71e3c5ff328644.svg",
     "static/media/BronaCleit.jpg": "/flannanreact/static/media/BronaCleit.0cc5a4b3272c713553c1.jpg",
     "static/media/EileanMor.jpg": "/flannanreact/static/media/EileanMor.bf8214fcafa96b4e6954.jpg",
     "index.html": "/flannanreact/index.html",
-    "main.5b6ae0e8.css.map": "/flannanreact/static/css/main.5b6ae0e8.css.map",
-    "main.8c1c59ff.js.map": "/flannanreact/static/js/main.8c1c59ff.js.map",
+    "main.4bc5a7af.css.map": "/flannanreact/static/css/main.4bc5a7af.css.map",
+    "main.1d4e3e7d.js.map": "/flannanreact/static/js/main.1d4e3e7d.js.map",
     "787.17cf3194.chunk.js.map": "/flannanreact/static/js/787.17cf3194.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b6ae0e8.css",
-    "static/js/main.8c1c59ff.js"
+    "static/css/main.4bc5a7af.css",
+    "static/js/main.1d4e3e7d.js"
   ]
 }
