@@ -4,7 +4,6 @@ import './App.css';
 import React, { useEffect, useState } from "react";
 
 import sprite from "./images/FlannanMapSymbolsNoNS.svg";
-import Blacksmith from './images/islandSVG/Blacksmith2.svg';
 import _Path from './images/Path.jpg';
 
 function App() {
@@ -40,9 +39,9 @@ function App() {
                     <h2 className="isleGroup">{Object.keys(islegroup)}</h2>
 
                     {islegroup[Object.keys(islegroup)].map((island, idx) => {
-                        let fullname = null;
-                        let details = null;
-                        let imagedetails = null;
+                        let fullname;
+                        let details;
+                        let imagedetails;
 
                         // Check if island has an English name and display accordingly
                         if (island.osname && island.enName) {
