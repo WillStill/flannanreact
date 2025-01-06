@@ -46,14 +46,50 @@ body {
     background-color: transparent;
     display: flex;
     justify-content: center;
-    margin: 0;
+    margin: 0 auto;
+    z-index: -1;
+    max-width:5712px;
+    max-height:3504px;
+    height: 100%;
 
     .introImg {
         width: 95%;
+        height: auto;
         display: flex;
         border: #456990 4px solid;
         border-radius: 3px;
+        z-index: -1;
     }
+    .svgContainer {
+        width: 95%;
+        height: auto;
+        min-width: 343px;
+        border: black 4px solid;
+        position: absolute;
+
+        .mapSVG {
+            z-index: 5;
+            width: 100%;
+            height: 100%;
+        }
+        #use4:hover {
+            fill: orange;
+            color: orange;
+        }
+    }
+
+}
+
+#Roaiream {fill: red;}
+
+.svgDiv {
+    width: 100vw;
+    height: 75vh;
+}
+
+.svgSil {
+    width: 100%;
+    height: 100%;
 }
 
 h1 {

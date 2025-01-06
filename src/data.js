@@ -249,8 +249,8 @@ export const isles = [
             },
             {
                 id: 14,
-                osname: 'Seal\'s Pool',
-                enName: '',
+                osname: 'Poll nan Ròn',
+                enName: 'Seal\'s Pool',
                 aliases: '',
                 desc: 'The island of Seal\'s Pool earns its name from the pool located on its northern side. The sheer cliff sides provide shade during the day, and during low tides it becomes an opportune place for the local seals.',
                 size: '',
